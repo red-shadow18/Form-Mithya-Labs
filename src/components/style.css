@@ -1,0 +1,46 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.name,
+.gender,
+.age {
+  display: block;
+  margin-top: 30px;
+}
+
+.eachitem {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  margin-top: 10px;
+  justify-content: center;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.elements {
+  display: flex;
+  border: 2px solid black;
+  padding: auto;
+  height: 600px;
+  width: 400px;
+  margin-top: 50px;
+}
+
+.records {
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.list {
+  list-style: none;
+}
